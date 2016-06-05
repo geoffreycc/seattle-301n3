@@ -1,5 +1,11 @@
 # Class 4 - Templates and Typography
 
+## Daily Plan
+1. Code Review [Scott]
+2. Typography [Dan]
+3. RegEx Intro [Dan]
+3. Templates [Dan]
+
 Templates have some advantages over direct DOM manipulation. Leverage those strengths in the blog, and in your portfolio application!
 
 As we get more sophisticated, this is a good time to ensure our CSS styles are well organized. We'll follow the SMACSS system for keeping everything in it's proper place.
