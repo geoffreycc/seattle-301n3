@@ -55,6 +55,15 @@
   text-decoration: none;
 }
 
+@media (min-width:600px) {
+  body {
+    background-color: red;
+  }
+  .icon-menu {
+    display: none;
+  }
+}
+
 /* TODO: Now add styles for how things should look on a larger screen:
          - Hide the hamburger.
          - Main should be all on one row, with padding spaced better for a larger screen.
