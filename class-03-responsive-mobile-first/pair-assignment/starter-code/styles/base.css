@@ -36,3 +36,7 @@ a:hover, a:focus {
 
 a:visited {
 }
+
+img {
+  max-width: 100%;
+}
