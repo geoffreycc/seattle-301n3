@@ -1,7 +1,7 @@
 # Class 4 - Templates and Typography
 
 ## Daily Plan
-1. Code Review [Scott]
+1. Code Review [Dan]
 2. Typography [Dan]
 3. RegEx Intro [Dan]
 3. Templates [Dan]
