@@ -11,15 +11,20 @@
     <link rel="stylesheet" href="styles/modules.css">
 
     <script id="blogArticle" type="text/x-handlebars-template">
+      <article data-category={{category}} data-author={{author}}> 
       <h1>{{title}}</h1>
       <div class='byLine'>
-        By <address><a href="">{{author}}</a><address>
-          published <time pubdate datetime="2000-01-01">{{publishedOn}}</time>
+        By <address><a href={{authorUrl}}>{{author}}</a><address>
+           <time pubdate datetime="2000-01-01">{{publishStatus}}</time>
         </div>
+        <section class="article-body">{{{body}}}</section>
+        <a href="#" class="read-on">Read on &rarr;</a>
+      </article>
+    </section>
       </script>
     <
     <!--
-      TODO: Add a script tag to hold the Handlebars template.
+      DONE: Add a script tag to hold the Handlebars template.
         - Be sure to give it a meaningful id attribute.
         - Move your old template structure to here.
         - Insert placeholder keys.
@@ -80,10 +85,12 @@
     <footer>
       &copy; 2015 Code Fellows | Static Blog | Happy Ipsum!
     </footer>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.amd.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+
     <!-- DONE: Include Handlebars.JS from a CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
     <script src="scripts/blogArticles.js"></script>
     <script src="scripts/article.js"></script>
     <script src="scripts/articleView.js"></script>
