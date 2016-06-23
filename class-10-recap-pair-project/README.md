@@ -16,7 +16,7 @@ Write your own user stories as you explore the new code base.
 ## Technical Requirements and Grading Rubric
  - Use jQuery for all DOM and event listener code.
  - Make good use of SMACSS principles.
- - Use templates wherever possibile.
+ - Use templates wherever possible.
  - Use mobile-first principles where you can.
  - Make the site responsive, for mobile and desktop.
  - Persist any user-generated data and user selections.
